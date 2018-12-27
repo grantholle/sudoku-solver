@@ -12,7 +12,7 @@ Just another sudoku puzzle solver... It was fun.
 
 ## Usage
 
-Either pass in a the puzzle as arguments or the filepath to the puzzle as one argument. Each square is space separated and unknown squares are non-numbers. Using `x` is easiest to read for me.
+Either pass in the puzzle as arguments or the filepath to the puzzle as one argument. Each square is space separated going from top to bottom, left to right (like you'd read a book, `A1` to `I9`) and unknown squares are non-numbers. Using `x` is easiest to read for me.
 
 ```
 ➜ node index x x x x x 6 x x 5 x x x x x 3 9 7 x 7 1 6 x x x x x x x 6 x 7 5 x x 2 x x x 2 x x x 8 x x x 7 x x 9 1 x 6 x x x x x x x 7 9 1 x 2 3 9 x x x x x 9 x x 8 x x x x x
